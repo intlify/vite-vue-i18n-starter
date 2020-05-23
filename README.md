@@ -9,6 +9,9 @@
 3. `yarn dev`
 4.  open http://localshot:3000 in your browser
 
+## :lollipop: Demo
+https://gray-smoke-0038b9700.azurestaticapps.net/
+
 ## :warning: Notice
 In vite current version, custom blocks is not supported yet.
 
