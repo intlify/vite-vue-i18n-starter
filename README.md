@@ -7,7 +7,7 @@
 1. Clone this repository
 2. `yarn`
 3. `yarn dev`
-4.  open http://localshot:3000 in your browser
+4.  open http://localhost:3000 in your browser
 
 ## :lollipop: Demo
 https://gray-smoke-0038b9700.azurestaticapps.net/
