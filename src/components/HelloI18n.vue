@@ -15,18 +15,7 @@ export default {
     // use local composer
     const { t } = useI18n({
       // `locale` inherit from global composer
-      inheritLocale: true,
-      // locale messages for local composer
-      messages: {
-        en: {
-          hello: 'Hello Vue I18n 9.0 🌏!',
-          count: 'count is: {count}'
-        },
-        ja: {
-          hello: 'こんにちは Vue I18n 9.0 🌏！',
-          count: 'カウントは{count}です'
-        }
-      }
+      inheritLocale: true
     })
     
     return { count, t }
@@ -34,7 +23,6 @@ export default {
 }
 </script>
 
-<!-- NOTE: vite doesn't support custom blocks ... -->
 <i18n>
 {
   "en": {
