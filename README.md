@@ -12,9 +12,6 @@
 ## :lollipop: Demo
 https://gray-smoke-0038b9700.azurestaticapps.net/
 
-## :warning: Notice
-In vite current version, custom blocks is not supported yet.
-
 ## :copyright: License
 
 [MIT](http://opensource.org/licenses/MIT)
