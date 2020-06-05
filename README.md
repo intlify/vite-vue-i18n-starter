@@ -12,6 +12,11 @@
 ## :lollipop: Demo
 https://gray-smoke-0038b9700.azurestaticapps.net/
 
+## `<i18n>` custom blocks support langs
+- json
+- yaml
+- json5
+
 ## :copyright: License
 
 [MIT](http://opensource.org/licenses/MIT)
