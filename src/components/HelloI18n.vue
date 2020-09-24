@@ -4,10 +4,10 @@
 </template>
 
 <script lang="ts">
-import { ref } from 'vue'
+import { ref, defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-export default {
+export default defineComponent({
   name: 'HelloI18n',
   setup() {
     const count = ref(0)
@@ -20,7 +20,7 @@ export default {
     
     return { count, t }
   }
-}
+})
 </script>
 
 <i18n>

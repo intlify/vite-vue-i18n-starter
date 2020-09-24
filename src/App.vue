@@ -11,10 +11,11 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 import HelloI18n from './components/HelloI18n.vue'
 
-export default {
+export default defineComponent({
   name: 'App',
   components: {
     HelloI18n
@@ -24,7 +25,7 @@ export default {
     const { t, locale } = useI18n()
     return { t, locale }
   }
-}
+})
 </script>
 
 <style scoped>
