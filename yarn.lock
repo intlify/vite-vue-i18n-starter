@@ -2052,10 +2052,15 @@ vite@^1.0.0-rc.4:
     vue "^3.0.0-rc.5"
     ws "^7.2.3"
 
-vue-i18n@^9.0.0-beta.1, vue-i18n@^9.0.0-beta.2:
+vue-i18n@^9.0.0-beta.1:
   version "9.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-9.0.0-beta.2.tgz#a07b95502295a04ebc6fb790928af1ddeaf06aae"
   integrity sha512-fvpf+LjXFdcSxKWYDaYetto3hnLwLzkPfKUmkzhG/AqgaIi+ZaVf+fLsQUmOaXzqp0l/4orjXjhHUIjhYsBLhA==
+
+vue-i18n@^9.0.0-beta.3:
+  version "9.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-9.0.0-beta.3.tgz#8abb78f5d57fb240edfd955b098dc267e33499f3"
+  integrity sha512-wPiGNtW4Xbmv+uprjmtzfk0SR0zQPSflMAJg7THZIWo4Cq/i9vUOaVBHbcwz7xELjoEw0F0uh5l9GxIQvimgWA==
 
 vue@^3.0.0, vue@^3.0.0-rc.5:
   version "3.0.0"
