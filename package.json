@@ -2,14 +2,15 @@
   "name": "vite-vue-i18n-starter",
   "version": "0.0.0",
   "dependencies": {
-    "vue": "^3.0.4",
-    "vue-i18n": "^9.0.0-beta.17"
+    "vue": "^3.0.5",
+    "vue-i18n": "^9.0.0-beta.18"
   },
   "devDependencies": {
-    "@intlify/vite-plugin-vue-i18n": "^1.0.0-beta.5",
-    "@vue/compiler-sfc": "^3.0.4",
+    "@intlify/vite-plugin-vue-i18n": "^1.0.0-beta.7",
+    "@vitejs/plugin-vue": "^1.0.3",
+    "@vue/compiler-sfc": "^3.0.5",
     "typescript": "^4.1.2",
-    "vite": "^1.0.0-rc.13"
+    "vite": "^2.0.0-beta.4"
   },
   "private": true,
   "scripts": {
