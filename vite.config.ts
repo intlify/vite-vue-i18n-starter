@@ -1,16 +1,13 @@
 import path from 'path'
+import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { pluginI18n } from '@intlify/vite-plugin-vue-i18n'
+import { vueI18n } from '@intlify/vite-plugin-vue-i18n'
 
-import type { UserConfig } from 'vite'
-
-const config: UserConfig = {
+export default defineConfig({
   plugins: [
     vue(),
-    pluginI18n({
+    vueI18n({
       include: path.resolve(__dirname, './src/locales/**')
     })
   ]
-}
-
-export default config
+})
