@@ -115,18 +115,18 @@
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.0.0-beta.16.tgz#51a80ca4705c93cb14c8f06398dfc550df09d67d"
   integrity sha512-A7GSOovcZn/NMoAmDc8FG9uRcFv6iygriK8+C6HFeOnMQ9X+T9f5A9bPtXhCOCiRpQm9SUtGqXedxO5Y8rz9/A==
 
-"@intlify/shared@9.0.0-rc.5", "@intlify/shared@^9.0.0-beta.16":
+"@intlify/shared@9.0.0-rc.5", "@intlify/shared@^9.0.0-beta.16", "@intlify/shared@^9.0.0-rc.5":
   version "9.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.0.0-rc.5.tgz#8ed9ea92e73b3856031724dc4a11fcbf7f1f7a7c"
   integrity sha512-LGurIHW/TYo07WrbCWXBuZQ3Hg2CHAv5rXLFpxBfHjZawCTrrORQfD4NA+RPVbaWFgzMgw5VJybpJRd9iB1x6g==
 
-"@intlify/vite-plugin-vue-i18n@^1.0.0-beta.15":
-  version "1.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-1.0.0-beta.15.tgz#c1842f0fa5435e5c86ce5aabf279d3bd26cf4da6"
-  integrity sha512-G7+rtoiYDko2hAILMx5xYfWc3OLqVWQ3Sap/kuHbkXHYpsR9qo91mrTceXrgkYDy0pDXk7ouXHMK7cMeyQSJEA==
+"@intlify/vite-plugin-vue-i18n@^1.0.0-beta.16":
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-1.0.0-beta.16.tgz#da10167faa4c9f14f8ef64221d0b08173655eeb0"
+  integrity sha512-hCHbhpm0e5ltGNfVLjv7/4deZY3+oMq9SKeCJtNPLvDQqWwxNR76JXX0OSULwbiDlfP3GwNWNAe7MmsEDNcBQQ==
   dependencies:
     "@intlify/cli" "^0.2.0"
-    "@intlify/shared" "^9.0.0-beta.16"
+    "@intlify/shared" "^9.0.0-rc.5"
     "@rollup/pluginutils" "^4.1.0"
     fast-glob "^3.2.5"
 
@@ -904,10 +904,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite@^2.0.0-beta.64:
-  version "2.0.0-beta.64"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.64.tgz#245cabc72335911d4cb704545f713d47e880d84f"
-  integrity sha512-/dR5rOXohhdXfkAIBAjmwX7JmoMWhQc7+VI6/EjyqXQCQzREmfBztLgTk/rPkmsNY87Cd71u9b+nlbcYK4TDCA==
+vite@^2.0.0-beta.65:
+  version "2.0.0-beta.65"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.65.tgz#e4e4576c01b9906d5fb3568e4068c80354107a70"
+  integrity sha512-mdHNTP6fGeb8m8lWAM3UbSPw1+un1lUv0i4MQJcNiK2/P01RHIY02VjQeXBv3NemkExkgLji88LN9ySFMUQpIw==
   dependencies:
     esbuild "^0.8.34"
     postcss "^8.2.1"
