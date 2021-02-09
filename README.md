@@ -1,6 +1,6 @@
 # :zap: Vite Vue I18n Starter
 
-:warning: *EXPERIMENTAL* Starter for [Vite](https://github.com/vuejs/vite) + [vue-i18n-next](https://github.com/intlify/vue-i18n-next) + [TypeScript](https://www.typescriptlang.org/)
+Starter for [Vite](https://github.com/vuejs/vite) + [vue-i18n-next](https://github.com/intlify/vue-i18n-next) + [TypeScript](https://www.typescriptlang.org/)
 
 ## :cd: Installation
 
@@ -10,7 +10,7 @@
 4.  open http://localhost:3000 in your browser
 
 ## :lollipop: Demo
-https://gray-smoke-0038b9700.azurestaticapps.net/
+https://wonderful-curran-765ceb.netlify.app
 
 ## `<i18n>` custom blocks support langs
 - json
