@@ -21,7 +21,7 @@ export default defineComponent({
     HelloI18n
   },
   setup() {
-    // use global composer
+    // use global scope
     const { t, locale } = useI18n()
     return { t, locale }
   }

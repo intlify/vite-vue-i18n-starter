@@ -28,9 +28,9 @@ export default defineComponent({
   setup() {
     const count = ref(0)
 
-    // use local composer
+    // use local scope
     const { t } = useI18n({
-      // `locale` inherit from global composer
+      // `locale` inherit from global scope
       inheritLocale: true
     })
     
