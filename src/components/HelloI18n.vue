@@ -42,7 +42,7 @@ export default defineComponent({
 <i18n>
 {
   "en": {
-    "hello": "Hello Vue I18n 9.0 🌏!",
+    "hello": "Hello Vue I18n 9 🌏!",
     "count": "count is: {count}",
     "docs": {
       "vue-i18n": "Vue I18n v9 Documentation",
@@ -51,7 +51,7 @@ export default defineComponent({
     "recommended": "Recommended setup"
   },
   "ja": {
-    "hello": "こんにちは Vue I18n 9.0 🌏！",
+    "hello": "こんにちは Vue I18n 9 🌏！",
     "count": "カウントは{count}です",
     "docs": {
       "vue-i18n": "Vue I18n v9 ドキュメント",
