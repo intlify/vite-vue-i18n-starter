@@ -6,7 +6,7 @@
     "vue-i18n": "^9.1.6"
   },
   "devDependencies": {
-    "@intlify/vite-plugin-vue-i18n": "^2.3.0",
+    "@intlify/vite-plugin-vue-i18n": "^2.3.1",
     "@types/node": "^15.9.0",
     "@vitejs/plugin-vue": "^1.2.3",
     "@vue/compiler-sfc": "^3.1.2",

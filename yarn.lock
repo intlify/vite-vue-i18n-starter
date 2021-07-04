@@ -91,10 +91,10 @@
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.1.6.tgz#d03c9301898d6ddffe2a54c03e7664174fbcdfd9"
   integrity sha512-6MtsKulyfZxdD7OuxjaODjj8QWoHCnLFAk4wkWiHqBCa6UCTC0qXjtEeZ1MxpQihvFmmJZauBUu25EvtngW5qQ==
 
-"@intlify/vite-plugin-vue-i18n@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-2.3.0.tgz#bf205e304f126b9e045a9f06be03f0e4e6c50357"
-  integrity sha512-yjAr9aQ8DKSPkfj3kM+UdjH0ZHNWCaB4EVPAIx0A6hOA+k/2587RHwKWMXyYVs3Gwc6vEK3AooZk1z3LFYcWKg==
+"@intlify/vite-plugin-vue-i18n@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-2.3.1.tgz#32ecd28933ae4e5cc4edfe08edfd783f5123803f"
+  integrity sha512-MSm4F1WUyeKVIDjvtfQP9zz+/4Xlvvj4HCwmC4X42FvR7STpXhOqPtOwHgsoYrRdG1JxKenH1uVnXVE0IVVrvQ==
   dependencies:
     "@intlify/cli" "^0.5.0"
     "@intlify/shared" "^9.1.6"
