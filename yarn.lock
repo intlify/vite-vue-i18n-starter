@@ -39,10 +39,10 @@
   resolved "https://registry.yarnpkg.com/@emmetio/scanner/-/scanner-1.0.0.tgz#065b2af6233fe7474d44823e3deb89724af42b5f"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
-"@intlify/bundle-utils@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@intlify/bundle-utils/-/bundle-utils-0.1.0.tgz#09706be36efe46f4fe82eca223257cdd62cd6b58"
-  integrity sha512-v0aeQmjNWppSLpPcLh3E1JiQg8bQFY9uD4ZuZssGq2elXsqB3JDH0TZfhO8Y83x1Ejk0qxq5hv015mYS2qzfZQ==
+"@intlify/bundle-utils@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@intlify/bundle-utils/-/bundle-utils-0.2.0.tgz#ef7feda8b92eaec1f09960fe2d7a66aae0067d31"
+  integrity sha512-P6H+jNT9CqU7d5gMOeaklHYo2vO6sVD7dYFvU7/T5rRBubmEikem7mSFfqMvYnOdIPRxhQSqxGEh+Jj4Act5nQ==
   dependencies:
     "@intlify/core" "^9.1.6"
     "@intlify/message-compiler" "^9.1.6"
@@ -135,12 +135,12 @@
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.2.0-alpha.9.tgz#3f84b7a44c5b577706437c5182cedb79b8a3eba4"
   integrity sha512-m6ddE/4FoVkXeNbaIoDs5uz9yAZaRRo3LmV3Pddn8rLVKVFNVqelILP9CHV1zQT4rPP6DHqw3pbmqSGYjr4+8Q==
 
-"@intlify/vite-plugin-vue-i18n@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-2.3.2.tgz#65565fec4e1cc2910dc090b6d52cc4b0a1186549"
-  integrity sha512-p8Ku0txXdcexDgdd9tiGAfstpJ6rIFmE3a2mDEgYuZBdgrJ5Ap6B5yplvn6DDg9faW40WuGEI75c5+5qfdN5ng==
+"@intlify/vite-plugin-vue-i18n@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-2.4.0.tgz#e122d4dcd83bf7231da8f3c8dec1393c2cb44adb"
+  integrity sha512-DXBvl7JEEcChjrsCUHIBJUSqgAXJSUzbaZskzTuJy5K3FDCX/g9XfHVaw8lCUaW7jYF60BIsPr87sAP1QSGB0Q==
   dependencies:
-    "@intlify/bundle-utils" "^0.1.0"
+    "@intlify/bundle-utils" "^0.2.0"
     "@intlify/shared" "^9.1.6"
     "@rollup/pluginutils" "^4.1.0"
     debug "^4.3.1"
