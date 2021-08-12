@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import HelloI18n from './components/HelloI18n.vue'
 
@@ -23,6 +23,12 @@ export default defineComponent({
   setup() {
     // use global scope
     const { t, locale } = useI18n()
+    // `locale` type is `writableComputedRef<string>
+
+    watch(locale, newLocale => {
+      // `newLocale` should be inferred as a `string`, but it's `writableComputedRef<string>` ...
+    })
+
     return { t, locale }
   }
 })

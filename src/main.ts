@@ -6,10 +6,9 @@ import './index.css'
 // See https://github.com/intlify/vite-plugin-vue-i18n#static-bundle-importing
 import messages from '@intlify/vite-plugin-vue-i18n/messages'
 
-const i18n = createI18n({
+const i18n = createI18n<false>({
   legacy: false,
   locale: 'en',
   messages
 })
-
 createApp(App).use(i18n).mount('#app')
