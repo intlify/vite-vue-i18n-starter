@@ -1,20 +1,20 @@
 <template>
   <div>
     C1:
-    <div>{{ t("hello", { world: t("world") }) }}</div>
+    <div>{{ $t("hello", { world: $t("world") }) }}</div>
     <i18n-t keypath="hello" tag="div">
       <template #world>
-        <strong>{{ t("world") }}</strong>
+        <strong>{{ $t("world") }}</strong>
       </template>
     </i18n-t>
 
     <br />
 
     <C2>
-      <div>{{ t("hello", { world: t("world") }) }}</div>
+      <div>{{ $t("hello", { world: $t("world") }) }}</div>
       <i18n-t keypath="hello" tag="div">
         <template #world>
-          <strong>{{ t("world") }}</strong>
+          <strong>{{ $t("world") }}</strong>
         </template>
       </i18n-t>
     </C2>
@@ -23,28 +23,19 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useI18n } from 'vue-i18n'
 import C2 from './C2.vue'
 
 export default defineComponent({
   components: {
     C2
   },
-  setup() {
-    const { t } = useI18n({
-      inheritLocale: true,
-      useScope: 'local'
-    })
-    return { t }
+  i18n: {
+    messages: {
+      en: {
+        hello: "Hello {world}",
+        world: "world!"
+      }
+    }
   }
 })
 </script>
-
-<i18n>
-{
-  "en": {
-    "hello": "Hello {world}",
-    "world": "world!"
-  }
-}
-</i18n>
