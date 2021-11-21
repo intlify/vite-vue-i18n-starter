@@ -80,7 +80,7 @@
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.2.0-beta.20.tgz#a434928e5526580312658fdc3da86e5c398a840d"
   integrity sha512-mwdvobi1gBNWt+dgd68IuRHG3xh6BXs0472ZO8vClr49HOhoVg9M+myQQntBQBHblcXreM8NX/pLkBzXSyUfmQ==
 
-"@intlify/vite-plugin-vue-i18n@latest":
+"@intlify/vite-plugin-vue-i18n@3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-3.2.0.tgz#fdb38c6b041df6d4ada180513bf7560c1811f8eb"
   integrity sha512-6M4XSeC8gW1SIGp3z1SIhibPGGe6a5C+1S+zUEfIwNVwDJKGh5C27Y/zHsPXyHzebMYyUBftE0+Ym+/cLn16tA==
