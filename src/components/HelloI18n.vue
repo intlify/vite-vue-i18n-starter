@@ -39,7 +39,7 @@ export default defineComponent({
 })
 </script>
 
-<i18n>
+<i18n lang="json">
 {
   "en": {
     "hello": "Hello Vue I18n 9 🌏!",
