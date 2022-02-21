@@ -19,23 +19,16 @@
   </p>
 </template>
 
-<script lang="ts">
-import { ref, defineComponent } from 'vue'
+<script setup lang="ts">
+import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-export default defineComponent({
-  name: 'HelloI18n',
-  setup() {
-    const count = ref(0)
+const count = ref(0)
 
-    // use local scope
-    const { t } = useI18n({
-      // `locale` inherit from global scope
-      inheritLocale: true
-    })
-    
-    return { count, t }
-  }
+// use local scope
+const { t } = useI18n({
+  // `locale` inherit from global scope
+  inheritLocale: true
 })
 </script>
 
