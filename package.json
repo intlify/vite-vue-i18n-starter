@@ -1,23 +1,23 @@
 {
   "name": "vite-vue-i18n-starter",
+  "private": true,
   "version": "0.0.0",
+  "type": "module",
   "dependencies": {
-    "vue": "^3.2.29",
-    "vue-i18n": "^9.2.0-beta.30"
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.2.0-beta.37"
   },
   "devDependencies": {
-    "@intlify/vite-plugin-vue-i18n": "3.3.0",
-    "@types/node": "^16.11.9",
-    "@vitejs/plugin-vue": "^2.2.2",
-    "@vue/compiler-sfc": "^3.2.29",
-    "typescript": "^4.5.2",
-    "vite": "^2.8.4",
-    "vue-tsc": "^0.31.4"
+    "@intlify/vite-plugin-vue-i18n": "4.0.0",
+    "@types/node": "^18.0.4",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.4"
   },
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "preview": "vite preview"
   }
 }
