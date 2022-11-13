@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@intlify/unplugin-vue-i18n': ^0.7.1
+  '@intlify/unplugin-vue-i18n': ^0.7.3
   '@types/node': ^18.0.4
   '@vitejs/plugin-vue': ^3.2.0
   typescript: ^4.8.4
@@ -15,7 +15,7 @@ dependencies:
   vue-i18n: 9.3.0-beta.6_vue@3.2.45
 
 devDependencies:
-  '@intlify/unplugin-vue-i18n': 0.7.1_vite@3.2.3+vue-i18n@9.3.0-beta.6
+  '@intlify/unplugin-vue-i18n': 0.7.3_vite@3.2.3+vue-i18n@9.3.0-beta.6
   '@types/node': 18.11.9
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.3+vue@3.2.45
   typescript: 4.8.4
@@ -45,8 +45,8 @@ packages:
     dev: true
     optional: true
 
-  /@intlify/bundle-utils/3.2.1_vue-i18n@9.3.0-beta.6:
-    resolution: {integrity: sha512-rf4cLBOnbqmpXVcCdcYHilZpMt1m82syh3WLBJlZvGxN2KkH9HeHVH4+bnibF/SDXCHNh6lM6wTpS/qw+PkcMg==}
+  /@intlify/bundle-utils/3.4.0_vue-i18n@9.3.0-beta.6:
+    resolution: {integrity: sha512-2UQkqiSAOSPEHMGWlybqWm4G2K0X+FyYho5AwXz6QklSX1EY5EDmOSxZmwscn2qmKBnp6OYsme5kUrnN9xrWzQ==}
     engines: {node: '>= 12'}
     peerDependencies:
       petite-vue-i18n: '*'
@@ -93,8 +93,8 @@ packages:
     resolution: {integrity: sha512-ITA1R4tvJYwZXT5x6QCSwxcwQ4dU52zrzVm/EUbgsp8oWzYS1xexBrxyNM80PSQudYvL2rvcZJKQ7yBh7b0LkQ==}
     engines: {node: '>= 14'}
 
-  /@intlify/unplugin-vue-i18n/0.7.1_vite@3.2.3+vue-i18n@9.3.0-beta.6:
-    resolution: {integrity: sha512-lNwLS7ZUe+JR488i9UrNlLYJqAZZ2W9bEbIBwoMDs1W6T+T3qU3JKac7GD0y2tXdQZ4yx0ZYIBDPpdK9aZ9+IQ==}
+  /@intlify/unplugin-vue-i18n/0.7.3_vite@3.2.3+vue-i18n@9.3.0-beta.6:
+    resolution: {integrity: sha512-hN3nFRosEJaDnzjDmE8wSxPdqwbbIlRyW62irIuGJWrHpFh9Qd43zRM5FWb62uabYhkF98A8KyJ6yAflV+r9kQ==}
     engines: {node: '>= 14.16'}
     peerDependencies:
       petite-vue-i18n: '*'
@@ -108,7 +108,7 @@ packages:
       vue-i18n-bridge:
         optional: true
     dependencies:
-      '@intlify/bundle-utils': 3.2.1_vue-i18n@9.3.0-beta.6
+      '@intlify/bundle-utils': 3.4.0_vue-i18n@9.3.0-beta.6
       '@intlify/shared': 9.3.0-beta.6
       '@rollup/pluginutils': 4.2.1
       '@vue/compiler-sfc': 3.2.45
@@ -116,7 +116,7 @@ packages:
       fast-glob: 3.2.12
       js-yaml: 4.1.0
       json5: 2.2.1
-      pathe: 0.2.0
+      pathe: 0.3.9
       picocolors: 1.0.0
       source-map: 0.6.1
       unplugin: 0.8.1_vite@3.2.3
@@ -763,8 +763,8 @@ packages:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
 
-  /pathe/0.2.0:
-    resolution: {integrity: sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==}
+  /pathe/0.3.9:
+    resolution: {integrity: sha512-6Y6s0vT112P3jD8dGfuS6r+lpa0qqNrLyHPOwvXMnyNTQaYiwgau2DP3aNDsR13xqtGj7rrPo+jFUATpU6/s+g==}
     dev: true
 
   /picocolors/1.0.0:
